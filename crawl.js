@@ -46,10 +46,11 @@ async function crawlPage(currentURL){
             return;
         }
         const contentType = response.headers.get("content-type");
-        if(contentType !== "text/html"){
+        if(!contentType.includes("text/html")){
             console.log(`non html response, content type: ${contentType}, on page: ${currentURL}`);
             return;
         }
+        console.log(await response.text());
     }catch(err){
         console.log(`Error in fetch : ${err} on page: ${currentURL}`);
     }
