@@ -1,0 +1,24 @@
+{
+  "name": "httptut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusufKer/httptut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YusufKer/httptut/issues"
+  },
+  "homepage": "https://github.com/YusufKer/httptut#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
